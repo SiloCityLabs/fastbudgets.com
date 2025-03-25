@@ -10,11 +10,11 @@ export default function Home() {
         <title>{process.env.NEXT_PUBLIC_APP_NAME}</title>
         <meta
           name="description"
-          content="SiloCityPages: A framework by SiloCityLabs leveraging Bootstrap, React, and Next.js for efficient static site development. Deploy seamlessly to GitHub Pages."
+          content="Simple budgeting app to help you manage your finances."
         />
         <meta
           name="keywords"
-          content="SiloCityPages, SiloCityLabs, Bootstrap, React, Next.js, GitHub Pages, static site generator, static site framework, web development, front-end, component-based, rapid deployment, web application, responsive design, website builder, React components, Next.js framework, GitHub hosting"
+          content="budgets, budgeting, finance, finances, money, save, spending, tracker"
         />
       </Head>
       <div className="main-container">
@@ -23,16 +23,18 @@ export default function Home() {
           <h3 className="text-center my-3">SiloCityPages</h3>
           <Row className="shadow-lg p-3 bg-body rounded">
             <Col lg={8} className="mx-auto">
-              SiloCityPages, developed by SiloCityLabs, is a streamlined
-              framework designed to accelerate the development and deployment of
-              static websites. Leveraging the power of Bootstrap for responsive
-              design, React for component-driven architecture, and Next.js for
-              efficient rendering, SiloCityPages provides a robust foundation
-              for building modern web applications. Optimized for seamless
-              deployment to GitHub Pages, this framework simplifies the process
-              of creating and hosting performant, visually appealing websites,
-              allowing developers to focus on content and functionality rather
-              than complex configurations.
+              <p>
+                Welcome to Fast Budget! This is a simple budgeting app to help
+                you manage your finances. You can create budgets, add expenses,
+                and track your spending. You can also view reports to see how
+                you are doing.
+              </p>
+              <p>
+                To get started, click on the "Budgets" link in the navigation
+                bar. From there, you can create a new budget by clicking on the
+                "Add Budget" button. You can also view and edit existing budgets
+                by clicking on the "View Budgets" button.
+              </p>
             </Col>
           </Row>
         </Container>

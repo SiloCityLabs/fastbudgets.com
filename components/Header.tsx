@@ -11,6 +11,8 @@ interface HeaderProps {
 
 const defaultNavLinks = [
   { label: "Home", href: "/", target: "" },
+  { label: "Budgets", href: "/budgets", target: "" },
+  { label: "Projections", href: "/projections", target: "" },
   { label: "Feedback", href: "/feedback", target: "" },
   {
     label: "GitHub",
