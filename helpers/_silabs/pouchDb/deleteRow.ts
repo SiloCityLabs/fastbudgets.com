@@ -23,7 +23,7 @@ async function deleteRow(
 
     if (error instanceof Error) {
       if (error.name === "NotFoundError") {
-        console.error(`Filament with ID ${id} not found for deletion.`);
+        console.error(`Budget with ID ${id} not found for deletion.`);
         return false;
       } else {
         throw new Error(error.message);
